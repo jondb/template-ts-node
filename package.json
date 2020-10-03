@@ -1,8 +1,9 @@
 {
-  "name": "@jondb/youtube-block",
+  "name": "@jondb/template-ts-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "starting point for a new typescript node jest project.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --watch",
     "lint": "eslint . --ext .ts",
