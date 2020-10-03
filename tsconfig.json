@@ -5,13 +5,8 @@
     "outDir": "dist",
     "sourceMap": true,
     "strictNullChecks": true,
-    "esModuleInterop": true,
-    "baseUrl": "./src",
+    "esModuleInterop": true
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/**/*.test.ts"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.test.ts"]
 }

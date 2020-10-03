@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch",
     "lint": "eslint . --ext .ts",
     "prettier": "prettier --write .",
     "build": "rm -rf dist && tsc",
     "start": "node dist/index.js",
     "dev": "nodemon --exec ts-node src/index.ts --watch src",
-    "test": "jest --watch",
     "coverage": "jest --coverage"
   },
   "keywords": [],
@@ -28,7 +27,6 @@
     "jest": "^26.4.2",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.1",
-    "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }
 }
